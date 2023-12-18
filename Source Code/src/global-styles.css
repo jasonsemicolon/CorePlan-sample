@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+}
+
+a:active {
+  background: none;
+}
+
+/* ==================== Chart Styles ================ */
+
+.chart {
+  width: "100%";
+  max-height: 500px;
+  min-height: 300px;
+  height: 350px;
+}
+
+/* ==================== Scroll Styles ================ */
+*::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 8px;
+  padding: 10px;
+  direction: rtl;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #bcbcbc;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(146, 146, 146);
+  cursor: pointer !important;
+}
+
+/* ==================== MapBox ================ */
+.mapboxgl-ctrl-bottom-right {
+  display: none;
+}
